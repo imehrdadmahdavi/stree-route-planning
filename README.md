@@ -29,7 +29,7 @@ git clone https://github.com/udacity/CppND-Route-Planning-Project.git --recurse-
   * Installation instructions for all operating systems can be found [here](https://github.com/cpp-io2d/P0267_RefImpl/blob/master/BUILDING.md)
   * This library must be built in a place where CMake `find_package` will be able to find it
   
-This project was build on an Ubuntu 18.04 machine. To install all of the above dependencies in Ubuntu, run the below commands:
+This project was build on an Ubuntu 18.04 machine. To install all of the above dependencies in Ubuntu, run the below commands in the Home directory:
      
 ```
 sudo apt update
