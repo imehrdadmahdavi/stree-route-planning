@@ -79,4 +79,4 @@ The testing executable is also placed in the `build` directory. From within `bui
 ## Code Strucutre
 
 <img src="code-structure.png" width="600" height="450" />
-![]("code-structure.png")
+![Code Structure](code-structure.png)
