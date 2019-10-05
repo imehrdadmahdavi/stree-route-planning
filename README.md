@@ -12,8 +12,7 @@ git clone https://github.com/udacity/CppND-Route-Planning-Project.git --recurse-
 ```
 
 
-## Dependencies for Running Locally
-
+## Dependencies
 
 * cmake >= 3.11.3
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
