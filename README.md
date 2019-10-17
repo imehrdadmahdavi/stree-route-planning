@@ -63,11 +63,11 @@ make
 The executable will be placed in the `build` directory. From within `build`, you can run the project as follows:
 ```
 ./OSM_A_star_search
-[s_x s_y e_x e_y]
-# Enter four input arguments for the starting and ending points coordinates as shown in the image above. 
-# Each coordinate's value should be between 0 and 100.
+[Enter Input Arguments]
 ```
-You can also specify a map file:
+Input arguments should be in the [s_x s_y e_x e_y] format which represent x and y coordinates of the starting and ending points of our search. Each value should also be between 0 and 100.
+
+You can specify a map file as below (optional):
 ```
 ./OSM_A_star_search -f ../<your_osm_file.osm>
 ```
