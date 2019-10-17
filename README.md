@@ -8,7 +8,7 @@ This project uses real map data and A* search to find a path between two points,
 
 When cloning this project, be sure to use the `--recurse-submodules` flag to import sub modules.
 ```
-git clone https://github.com/udacity/CppND-Route-Planning-Project.git --recurse-submodules
+git clone https://github.com/imehrdadmahdavi/street-route-planner.git--recurse-submodules
 ```
 
 
