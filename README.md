@@ -12,24 +12,23 @@ When cloning this project, be sure to use the `--recurse-submodules` flag to imp
 git clone https://github.com/imehrdadmahdavi/street-route-planner.git--recurse-submodules
 ```
 
-
 ## Dependencies
 
-* cmake >= 3.11.3
+* cmake 3.11.3+
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
-* make >= 4.1 (Linux, Mac), 3.81 (Windows)
+* make 4.1+ (Linux, Mac), 3.81 (Windows)
   * Linux: make is installed by default on most Linux distros
   * Mac: [install Xcode command line tools to get make](https://developer.apple.com/xcode/features/)
   * Windows: [Click here for installation instructions](http://gnuwin32.sourceforge.net/packages/make.htm)
-* gcc/g++ >= 7.4.0
-  * Linux: gcc / g++ is installed by default on most Linux distros
+* gcc/g++ 7.4.0+
+  * Linux: gcc/g++ is installed by default on most Linux distros
   * Mac: same instructions as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
   * Windows: recommend using [MinGW](http://www.mingw.org/)
-* IO2D
+* IO2D (P0267)
   * Installation instructions for all operating systems can be found [here](https://github.com/cpp-io2d/P0267_RefImpl/blob/master/BUILDING.md)
   * This library must be built in a place where CMake `find_package` will be able to find it
   
-This project was build on an Ubuntu 18.04 machine. To install all of the above dependencies in Ubuntu, run the below commands in the Home directory:
+This project was built and tested on an Ubuntu 18.04 machine. To install all of the above dependencies in Ubuntu, run the below commands in the Home directory:
      
 ```
 sudo apt update
@@ -51,7 +50,7 @@ sudo make install
 ## Compiling and Running
 
 ### Compiling
-To compile the project, first, create a `build` directory and change to that directory:
+To compile the project, first, create a `build` directory in the project folder and change to that directory:
 ```
 mkdir build && cd build
 ```
@@ -64,6 +63,7 @@ make
 The executable will be placed in the `build` directory. From within `build`, you can run the project as follows:
 ```
 ./OSM_A_star_search
+[Enter four arguments from the starting point and ending point as shown in the image above]
 ```
 Or to specify a map file:
 ```
