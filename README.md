@@ -63,7 +63,7 @@ make
 The executable will be placed in the `build` directory. From within `build`, you can run the project as follows:
 ```
 ./OSM_A_star_search
-[s_x s_y e_x e_y] (Enter four input arguments for the starting and ending points coordinates as shown in the image above)
+[s_x s_y e_x e_y] (Enter four input arguments for the starting and ending points coordinates as shown in the image above. Please note that each coordinate's value should be between 0 and 100)
 ```
 You can also specify a map file:
 ```
