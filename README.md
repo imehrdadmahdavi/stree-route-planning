@@ -78,4 +78,4 @@ The testing executable is also placed in the `build` directory. From within `bui
 ```
 ## Code Strucutre
 
-![Code Structure](/program-structure.png)
+![Code Structure](/code-structure.png)
