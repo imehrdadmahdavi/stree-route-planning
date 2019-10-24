@@ -9,7 +9,7 @@ This project uses real map data and [A* search algorithm](https://en.wikipedia.o
 
 When cloning this project, be sure to use the `--recurse-submodules` flag to import sub modules.
 ```
-git clone https://github.com/imehrdadmahdavi/street-route-planner.git--recurse-submodules
+git clone https://github.com/imehrdadmahdavi/street-route-planner.git --recurse-submodules
 ```
 
 ## Dependencies
